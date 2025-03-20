@@ -17,3 +17,5 @@ I used a `BlockingCollection<SensorStatus>` to queue all incoming sensor statuse
 -  **Multithreaded-safe:** All updates are thread-safe using concurrent collections and a dedicated processing thread.
 
 ---
+To restore missing dependencies, open Package Manager Console in Visual Studio and run: `Update-Package -reinstall`
+
