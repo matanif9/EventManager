@@ -17,5 +17,3 @@ I used a `BlockingCollection<SensorStatus>` to queue all incoming sensor statuse
 -  **Multithreaded-safe:** All updates are thread-safe using concurrent collections and a dedicated processing thread.
 
 ---
-
-> Built with WPF + MVVM + Rx + C#
